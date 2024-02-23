@@ -3,7 +3,7 @@ import { PolicyPageType } from "@/types";
 const mainPagePolicyConfig: PolicyPageType = {
   title: "Privacy Policy",
   description:
-    "This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from ub.cafe (the “Site”).",
+    "This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from https://beetech-rho.vercel.app (the “Site”).",
   paragraphs: [
     {
       title: "Personal Information we collect",
@@ -18,7 +18,7 @@ const mainPagePolicyConfig: PolicyPageType = {
     {
       title: "Contact Us",
       description:
-        "For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e-mail at support@domain.com.",
+        "For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e-mail at support@dbeetech.com.",
     },
   ],
 };

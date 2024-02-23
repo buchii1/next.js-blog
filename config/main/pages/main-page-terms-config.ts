@@ -34,7 +34,7 @@ const mainPageTermsConfig: TermsPageType = {
     },
     {
       description:
-        "Questions about the Terms of Service should be sent to us at support@domain.com",
+        "Questions about the Terms of Service should be sent to us at support@beetech.com",
     },
   ],
 };
