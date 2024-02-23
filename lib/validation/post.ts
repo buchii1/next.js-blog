@@ -64,3 +64,4 @@ export const postUpdateSchema = z.object({
   description: z.string().optional(),
   content: z.any().optional(),
 });
+

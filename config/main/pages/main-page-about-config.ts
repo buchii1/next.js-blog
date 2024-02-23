@@ -9,9 +9,9 @@ import {
 const mainPageAboutConfig: AboutPageType = {
   general: {
     title: "About",
-    subTitle: "Fullstack Blogging application",
+    subTitle: "Blogging Application",
     description:
-      "This is a fullstack blogging application built with Next.js 13 and Supabase.",
+      "This is a fullstack blogging application built with Next.js 14 and Supabase.",
     paragraphs: [
       {
         description:
