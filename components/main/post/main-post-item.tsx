@@ -20,8 +20,9 @@ async function getPublicImageUrl(postId: string, fileName: string) {
   const { data } = supabase.storage
     .from(bucketName)
     .getPublicUrl(`${postId}/${fileName}`);
-
-  if (data && data.publicUrl) return data.publicUrl;
+  const imageData = data.publicUrl.split("https")[2];
+  console.log(`https${imageData}`);
+  if (data && data.publicUrl) return `https${imageData}`;
 
   return "/images/not-found.jpg";
 }

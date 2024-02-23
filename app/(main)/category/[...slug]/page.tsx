@@ -8,7 +8,7 @@ import type { Database } from "@/types/supabase";
 import { createClient } from "@/utils/supabase/server";
 import { Metadata } from "next";
 import { cookies } from "next/headers";
-import notFound from "next/navigation";
+import { notFound } from "next/navigation";
 import React from "react";
 import { v4 } from "uuid";
 
