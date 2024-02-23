@@ -1,1 +1,0 @@
-# Blog Application built using Next.js 14.
